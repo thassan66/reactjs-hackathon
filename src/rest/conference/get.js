@@ -7,7 +7,6 @@ const list = async(req, res, next) => {
 };
 
 module.exports = {
-  permissions: ['DATA:LIST'],
   functions: [
     list,
   ],
